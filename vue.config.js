@@ -12,7 +12,7 @@ module.exports = {
       },
     },
   },
-  chainWebpack: (config) => {
+  chainWebpack: config => {
     config.resolve.alias.set(
       'vue$',
       // If using the runtime only build
