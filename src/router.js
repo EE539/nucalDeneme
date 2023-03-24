@@ -1,4 +1,4 @@
-import VueRouter from 'vue-router';
+import VuexpRouter from 'vuexp-router';
 import routes from './routerLoader';
 
 const options = {
@@ -7,5 +7,6 @@ const options = {
   routes,
 };
 
-const router = new VueRouter(options);
+const router = new VuexpRouter(options);
 export default router;
+
